@@ -2,8 +2,9 @@ import { Phone, MapPin, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="relative border-t border-black/5 bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <footer id="contact" className="relative border-t border-black/5 bg-gradient-to-b from-white via-white to-orange-50/30">
+      <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-orange-500/40 to-transparent" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
@@ -35,10 +36,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-bold text-neutral-900">Follow</h4>
             <div className="mt-3 flex items-center gap-3">
-              <a aria-label="Instagram" href="#" className="inline-flex items-center gap-2 rounded-md border border-black/10 px-3 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-50">
+              <a aria-label="Instagram" href="#" className="inline-flex items-center gap-2 rounded-md border border-black/10 bg-white px-3 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-50">
                 <Instagram size={16} /> Instagram
               </a>
-              <a aria-label="Facebook" href="#" className="inline-flex items-center gap-2 rounded-md border border-black/10 px-3 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-50">
+              <a aria-label="Facebook" href="#" className="inline-flex items-center gap-2 rounded-md border border-black/10 bg-white px-3 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-50">
                 <Facebook size={16} /> Facebook
               </a>
             </div>
